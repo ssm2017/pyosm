@@ -67,7 +67,7 @@ class User:
           self.iars.append(iar_file)
 
     if not len(self.iars):
-      logging.main_logger.warning("[user] no iar file found : %s" % (iar_file))
+      logging.main_logger.warning("[user] no iar file found : %s" % ('/home/' + self.name + '/opensimulator/iar/'))
       return False
 
     return True

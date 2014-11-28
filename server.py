@@ -59,7 +59,7 @@ if __name__ == '__main__':
   server.register_function(methods.delete_iar)
 
   # Run the server's main loop
-  logging.main_logger.critical("[server] Pyosmw server starting on port %s." % config.port)
+  logging.main_logger.critical("[server] Pyosmw server starting on host %s and port %s." % (config.host_name,config.port))
   try:
     server.serve_forever()
   except KeyboardInterrupt:

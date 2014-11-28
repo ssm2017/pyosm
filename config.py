@@ -9,6 +9,7 @@ server_password = 'abcd'
 url_duration = 300
 
 def load():
+  global host_name, port, paths, server_password, url_duration
   logging.main_logger.info("[config] Pyosmw config read started.")
 
   # check if config exists

@@ -6,6 +6,7 @@ log.pyc
 methods.pyc
 oar.pyc
 region.pyc
+server.pyc
 sim.pyc
 subprocessor.pyc
 user.pyc
